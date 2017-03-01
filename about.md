@@ -1,20 +1,18 @@
 ---
 layout: page
-title: About this blog
-description: Just a way to know Andrea Macchieraldo a bit better
-banner_image: http://net-slum.s3.amazonaws.com/netslum/pages/aboutPage.jpg
+title: Info
+description: Chi è l'autore di Perle di Nerdezza?
+banner_image: https://tlgur.com/d/yGOVznM8
 ---
 
-**Andrea Macchieraldo** (aka **macchie**) is CTO at [Koodit](http://www.koodit.it), Italy. 
+**Alex** (aka **Rerosku**) is a tech lover always looking for some new challenges.
 
-Aftert many years of independent studies he started his own company, he is a tech lover and information maniac.
+The latest is Jekyll and a static blog wit GitHub.. challenging!
 
-Focused on front-end and mobile apps development, his favourite tools are SASS, Jade and CoffeeScript.
+I like to find solutions to everyday's problems and write articles about it so that other won't go through the struggle of figuring it out by themselves.
 
-He loves to tear the world apart and learn how things work.
+>Massimo Risultato, Minimo Sforzo <cite>André Martinet</cite>
 
->The memory of how we work will endure beyond the products of our work. <cite>Jonathan Ive</cite>
+Follow me and I'll show you that you don't ALWAYS need something just because it's a trend. There are many better alternatives!
 
-Because quotes are fucking awesome.
-
-*Thank You for wasting your precious time on this!*
+*Why join the navy if you can be a pirate ?*
