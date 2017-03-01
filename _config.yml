@@ -6,13 +6,13 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site title
-title: "netslum"
+title: "Perle di Nerdezza"
 
 # A description of your site for social meta tag, search engines, and feed.xml
-description: "netslum, it is a place where the reminisce of undeleted data have gathered."
+description: "Quello che cercavi...  Forse. "
 
 # Tagline near the site title
-tagline: "netslum, it is a place where the reminisce of undeleted data have gathered."
+tagline: "Guide, Chat, How-to, DIY e pensieri vari."
 
 # The subpath of your site, e.g. /blog, for generating urls
 baseurl:
@@ -21,7 +21,7 @@ sass:
   sass_dir: _sass
 
 # The base hostname & protocol of your site for where absolute urls are needed
-url: "http://netslum.me"
+url: "http://rerosku.GitHub.io"
 
 # Site navigation - each item must have a title and a url.
 navigation:
@@ -31,18 +31,18 @@ navigation:
   url: /about/
 # - text: Style Guides
 #   url: /style-guide/
-- text: Archives
+- text: Archivio
   url: /tags/
 
 # The shortname for your Disqus site to enable comments.
 disqus: "perledinerdezza"
 
 # Author information - author info at the bottom of the post
-author_name: "macchie"
-author_bio: "macchie is a ux/ui designer and a curious programmer."
-author_url:  "http://netslum.me"
+author_name: "Rerosku"
+author_bio: "Geek, drogato di serie Tv,  party Animal e fermo sostenitore della teoria:  "Massimo Risultato,  Minimo Sforzo" 
+author_url:  "http://rerosku.GitHub.io"
 author_location: "Biella, Italia"
-author_image: http://net-slum.s3.amazonaws.com/netslum/macchie.png
+author_image: https://tlgur.com/d/yGOVznM8
 
 # Sidebar Add banner
 # banner_url: "http://justgoodthemes.com"
@@ -52,16 +52,16 @@ author_image: http://net-slum.s3.amazonaws.com/netslum/macchie.png
 # mailchimp_url: "//justgoodthemes.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117"
 
 # Social links in the site footer
-twitter_username: "imakkie91"
-facebook_username: "andrea.macchieraldo"
-# googleplus_username: "+username"
-github_username: "macchie"
-codepen_username: "macchie"
-# dribbble_uername: "username"
+twitter_username: "nardialex"
+facebook_username: "nekonata.liberaj"
+# googleplus_username: "+rerosku"
+github_username: "rerosku"
+codepen_username: "#"
+# dribbble_uername: "#"
 medium_username: "@username"
-instagram_username: "macchie7"
+instagram_username: "rerosku"
 # pinterest_username: "username"
-linkedin_username: "andrea-macchieraldo-579b444b"
+linkedin_username: "username"
 
 # http://jekyllrb.com/docs/pagination/
 paginate: 5
