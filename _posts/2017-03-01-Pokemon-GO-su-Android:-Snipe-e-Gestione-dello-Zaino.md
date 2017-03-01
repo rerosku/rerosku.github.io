@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pokemon GO su Android: Snipe e Gestione dello Zaino
+title: Snipe e Gestione dello Zaino su Pokemon Go
 date:   2017-03-01
 banner_image: pokemongo.jpg
 tags: [pokemon, guide, cheat]
