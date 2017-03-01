@@ -1,6 +1,10 @@
 ---
 layout: post
-title: Become a Millionaire (test article)
+title:  "Become a Millionaire"
+date:   2016-03-01
+banner_image: bitcoin.jpg
+tags: [money, guide]
+comments: true
 ---
 **Become A Millionaire!!!**
 
