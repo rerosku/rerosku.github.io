@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site title
-title: "Perle di Nerdezza"
+title: "netslum"
 
 # A description of your site for social meta tag, search engines, and feed.xml
 description: "netslum, it is a place where the reminisce of undeleted data have gathered."
@@ -35,7 +35,7 @@ navigation:
   url: /tags/
 
 # The shortname for your Disqus site to enable comments.
-disqus: "perledinerdezza"
+disqus:
 
 # Author information - author info at the bottom of the post
 author_name: "macchie"
