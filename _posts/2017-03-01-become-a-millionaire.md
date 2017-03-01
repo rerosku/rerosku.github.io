@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Become a Millionaire"
-date:   2016-03-01
+date:   2017-03-01
 banner_image: bitcoin.jpg
 tags: [money, guide]
 comments: true
