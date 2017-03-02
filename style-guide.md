@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Style Guide
+layout: page
 description: This is a style guide of the BlogInn Jekyll theme
 ---
 

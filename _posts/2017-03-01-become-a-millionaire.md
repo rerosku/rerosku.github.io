@@ -1,11 +1,14 @@
 ---
+title: Become a Millionaire
+date: 2017-03-01 00:00:00 Z
+tags:
+- money
+- guide
 layout: post
-title:  "Become a Millionaire"
-date:   2017-03-01
 banner_image: bitcoin.jpg
-tags: [money, guide]
 comments: true
 ---
+
 **Become A Millionaire!!!**
 
 All of you viewing this would like to earn FREE MONEY! And the best way to earn money is to do tasks online, but what if you can get free money by doing……JUST NOTHING!

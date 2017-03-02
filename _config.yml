@@ -1,73 +1,44 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site title
-title: "Perle di Nerdezza"
-
-# A description of your site for social meta tag, search engines, and feed.xml
-description: "Quello che cercavi... Forse."
-
-# Tagline near the site title
-tagline: "Guide, Hack & Cheats, How-To, DIY e pensieri vari."
-
-# The subpath of your site, e.g. /blog, for generating urls
-baseurl:
-
+---
+title: Perle di Nerdezza
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+description: Quello che cercavi... Forse.
+tagline: Guide, Hack & Cheats, How-To, DIY e pensieri vari.
+baseurl: 
 sass:
   sass_dir: _sass
-
-# The base hostname & protocol of your site for where absolute urls are needed
-url: "http://rerosku.github.io"
-
-# Site navigation - each item must have a title and a url.
+url: http://rerosku.github.io
 navigation:
 - text: Home
-  url: /
+  url: "/"
 - text: About
-  url: /about/
-# - text: Style Guides
-#   url: /style-guide/
+  url: "/about/"
 - text: Archives
-  url: /tags/
-
-# The shortname for your Disqus site to enable comments.
-disqus: "perledinerdezza"
-
-# Author information - author info at the bottom of the post
-author_name: "Rerosku"
-author_bio: "Geek, Drogato di Serie TV, Party Animal e fermo sostenitore della scuola di pensiero: Massimo Risultato, Minimo Sforzo"
-author_url:  "http://perledinerdezza.cu.cc"
-author_location: "Biella, Italia"
+  url: "/tags/"
+disqus: perledinerdezza
+author_name: Rerosku
+author_bio: 'Geek, Drogato di Serie TV, Party Animal e fermo sostenitore della scuola
+  di pensiero: Massimo Risultato, Minimo Sforzo'
+author_url: http://perledinerdezza.cu.cc
+author_location: Biella, Italia
 author_image: https://tlgur.com/d/yGOVznM8
-
-# Sidebar Add banner
-banner_url: "http://ororo.tv/ref/382304"
+banner_url: http://ororo.tv/ref/382304
 banner_image: images/ororo.jpg
-
-# Sidebar newsletter widget - add your form action url for MailChimp signup form here
-# mailchimp_url: "http://github.us4.list-manage.com/subscribe/post?u=d649803a16930934c1466680c&amp;id=1c468f88b0"
-
-# Social links in the site footer
-twitter_username: "perledinerdezza"
-facebook_username: "perle.di.nerdezza"
+twitter_username: perledinerdezza
+facebook_username: perle.di.nerdezza
 googleplus_username: "+rerosku"
-github_username: "rerosku"
-# codepen_username: "macchie"
-# dribbble_uername: "username"
-# medium_username: "@username"
-instagram_username: "perle.di.nerdezza"
-# pinterest_username: "username"
-# linkedin_username: "andrea-macchieraldo-579b444b"
-
-# http://jekyllrb.com/docs/pagination/
+github_username: rerosku
+instagram_username: perle.di.nerdezza
 paginate: 5
-paginate_path: '/blog/page:num/'
-gems: [jekyll-paginate]
-
+paginate_path: "/blog/page:num/"
+gems:
+- jekyll-paginate
 permalink: pretty
 markdown: kramdown
 kramdown:

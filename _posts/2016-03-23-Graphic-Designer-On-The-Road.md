@@ -1,9 +1,11 @@
 ---
+title: Graphic Designer On The Road
+date: 2016-03-23 00:00:00 Z
+tags:
+- web design
+- blogging
 layout: post
-title:  "Graphic Designer On The Road"
-date:   2016-03-23
 banner_image: road.jpg
-tags: [web design, blogging]
 comments: true
 ---
 
