@@ -2,7 +2,7 @@
 title: Info
 layout: page
 description: Chi è l'autore di Perle di Nerdezza?
-banner_image: https://tlgur.com/d/yGOVznM8
+banner_image: aboutPage.jpg
 ---
 
 **Alex** (aka **Rerosku**) is a tech lover always looking for some new challenges.
