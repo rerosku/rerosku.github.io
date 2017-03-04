@@ -1,9 +1,11 @@
 ---
 title: Rappelz Zesua Bot per Voti Automatici
+date: 2017-03-04 00:00:00 Z
+tags:
+- gaming
 'date ': '2017-03-04 19:18:00'
 layout: post
 banner_image: rappelz.jpg
-tags: gaming
 comments: 'true'
 ---
 
