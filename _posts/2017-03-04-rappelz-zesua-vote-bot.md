@@ -2,12 +2,14 @@
 title: Rappelz Zesua Bot per Voti Automatici
 'date ': '2017-03-04 19:18:00'
 layout: post
-banner_image: rappelz.jpg
+banner_image: http://rerosku.altervista.org/wp-content/uploads/zesua.png
 tags: gaming
 comments: 'true'
 ---
 
 [![zesua](http://rerosku.altervista.org/wp-content/uploads/zesua.png)](http://viid.me/9jM4w ) Rappelz ha di sicuro ottenuto un grandissimo successo negli anni che vanno dal 2005 al 2012\. Anche oggi ci sono moltissimi giocatori attivi, ma giocare nei server ufficiali è ormai noioso e impossibile. Oggi vi parlo di un server privato, chiamato Rappelz Zesua e vi spiegherò come ottenere vote points infiniti grazie ad un piccolo "BOT" casalingo.
+
+<!--more-->
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kZor8qgVrMM" frameborder="0" allowfullscreen="allowfullscreen"></iframe>Vi consiglio il miglior server Privato al momento disponibile: sto parlando di **[Rappelz Zesua](http://viid.me/9jM4w).**
 
