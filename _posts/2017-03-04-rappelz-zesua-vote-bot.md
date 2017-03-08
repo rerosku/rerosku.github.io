@@ -2,7 +2,7 @@
 title: Rappelz Zesua Bot per Voti Automatici
 date: 2017-03-04 19:18:00 Z
 tags:
-  - gaming
+- gaming
 layout: post
 banner_image: http://rerosku.altervista.org/wp-content/uploads/zesua.png
 comments: true
