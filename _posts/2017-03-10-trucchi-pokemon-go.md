@@ -1,7 +1,7 @@
 ---
 title: Trucchi per Pokemon GO: Guida completa!
-date: 2017-03-10 07:00:00
-tags: Pokemon GO!
+date: 2017-03-10 07:00:00 Z
+tags: Pokemon GO
 layout: post
 banner_image: pokemongo.jpg
 comments: true
