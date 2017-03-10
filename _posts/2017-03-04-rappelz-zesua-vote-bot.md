@@ -9,7 +9,7 @@ banner_image: rappelz.jpg
 comments: true
 ---
 
-<center><img src:"http://rerosku.altervista.org/wp-content/uploads/zesua.png" /></center>
+<center><img src="http://rerosku.altervista.org/wp-content/uploads/zesua.png" /></center>
 
 Rappelz ha di sicuro ottenuto un grandissimo successo negli anni che vanno dal 2005 al 2012. Anche oggi ci sono moltissimi giocatori attivi, ma giocare nei server ufficiali è ormai noioso e impossibile. Oggi vi parlo di un server privato, chiamato Rappelz Zesua e vi spiegherò come ottenere vote points infiniti grazie ad un piccolo "BOT" casalingo.
 
@@ -21,7 +21,7 @@ Troverete server PvP, PvE e Retro Experience, con **EXP Rate aumentati**, **Con
 
 Quello di cui voglio parlarvi oggi è appunto il <span style="text-decoration: underline;">sistema di votazione per ottenere punti da poter spendere nel gioco</span>. Dopo essersi [registrati](http://viid.me/9kw9D), sarà sufficiente recarsi sulla [pagina delle votazioni](http://viid.me/9keS4), completare il CAPTCHA e cliccare su "Yes" per votare il server sul sito "Topofgames" e contribuire così a far conoscere il server a nuovi giocatori. Questa operazione aggiunge dei punti al vostro account e potrete votare ogni 2 ore.
 
-<img src:"http://rerosku.altervista.org/wp-content/uploads/Screenshot_19.png" /></center>
+<img src="http://rerosku.altervista.org/wp-content/uploads/Screenshot_19.png" /></center>
 Il mio personaggio principale sul server ZesuaV2
 
 Bello vero?.. **NO**
