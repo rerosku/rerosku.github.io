@@ -1,10 +1,10 @@
 ---
-title: 'Trucchi per Pokemon GO: Guida completa!'
+title: Trucchi per Pokemon GO: Guida completa!
 date: 2017-03-10 07:00:00
 tags: Pokemon GO!
 layout: post
 banner_image: pokemongo.jpg
-comments: 'true'
+comments: true
 ---
 
 Se anche tu, ami i Pokemon, ma vuoi un'esperienza di gioco a 360° (e ai limiti del ban.. talvolta), questa è la guida che fa per te!
