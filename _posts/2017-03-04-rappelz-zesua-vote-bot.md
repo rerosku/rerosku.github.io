@@ -1,7 +1,9 @@
 ---
-title: "Rappelz Zesua Bot per Voti Automatici"
-date: 2017-03-04
-tags: [Rappelz, Trucchi & Hack]
+title: Rappelz Zesua Bot per Voti Automatici
+date: 2017-03-04 00:00:00 Z
+tags:
+- Rappelz
+- Trucchi & Hack
 layout: post
 banner_image: road.jpg
 comments: true
