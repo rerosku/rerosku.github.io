@@ -9,7 +9,7 @@ banner_image: rappelz.jpg
 comments: true
 ---
 
-[zesua](http://rerosku.altervista.org/wp-content/uploads/zesua.png)](http://viid.me/9jM4w )
+[!\[zesua](http://rerosku.altervista.org/wp-content/uploads/zesua.png)](http://viid.me/9jM4w )
 
 Rappelz ha di sicuro ottenuto un grandissimo successo negli anni che vanno dal 2005 al 2012. Anche oggi ci sono moltissimi giocatori attivi, ma giocare nei server ufficiali è ormai noioso e impossibile. Oggi vi parlo di un server privato, chiamato Rappelz Zesua e vi spiegherò come ottenere vote points infiniti grazie ad un piccolo "BOT" casalingo.
 
