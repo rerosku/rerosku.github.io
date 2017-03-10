@@ -1,6 +1,5 @@
 ---
 title: 'Trucchi per Pokemon GO: Guida completa!'
-New field 1: 'Trucchi per Pokemon GO: Guida completa!'
 date: '2017-03-10 07:00:00'
 tags: Pokemon GO!
 layout: post
