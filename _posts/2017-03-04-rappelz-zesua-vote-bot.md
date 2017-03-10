@@ -1,5 +1,5 @@
 ---
-title: "Rappelz Zesua Bot per Voti Automatici"
+title: "Rappelz Zesua Bot"
 date: 2017-03-04
 tags: [Rappelz, Trucchi & Hack]
 layout: post
