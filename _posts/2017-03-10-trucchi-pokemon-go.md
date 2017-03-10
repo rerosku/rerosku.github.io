@@ -22,7 +22,7 @@ In questa guida, come precedentemente detto, vi elencherò alcuni strumenti che 
 
 **NON MI ASSUMO NESSUNA RESPONSABILITA' RELATIVA A BAN E CHIUSURE ACCOUNT. ALCUNI DEI SOFTWARE RECENSITI VIOLANO I ToS DI POKEMON GO E POSSONO METTERE A RISCHIO IL VOSTRO ACOCUNT PRINCIPALE!**
 
-##Applicazione Ufficiale##
+***Applicazione Ufficiale***
 Per scaricare l'app ufficiale di Pokemon Go! potete visitare questi link:
 * [PLAY STORE - Android](https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo)
 * [APP STORE - iOS](https://itunes.apple.com/us/app/pokémon-go/id1094591345?mt=8)
