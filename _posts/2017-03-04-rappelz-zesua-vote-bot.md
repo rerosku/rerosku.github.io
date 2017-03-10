@@ -9,7 +9,7 @@ banner_image: rappelz.jpg
 comments: true
 ---
 
-<center>![zesua](http://rerosku.altervista.org/wp-content/uploads/zesua.png)</center>
+![logo]: http://rerosku.altervista.org/wp-content/uploads/zesua.png "Rappelz Zesua Server"
 
 Rappelz ha di sicuro ottenuto un grandissimo successo negli anni che vanno dal 2005 al 2012. Anche oggi ci sono moltissimi giocatori attivi, ma giocare nei server ufficiali è ormai noioso e impossibile. Oggi vi parlo di un server privato, chiamato Rappelz Zesua e vi spiegherò come ottenere vote points infiniti grazie ad un piccolo "BOT" casalingo.
 
@@ -21,7 +21,7 @@ Troverete server PvP, PvE e Retro Experience, con **EXP Rate aumentati**, **Con
 
 Quello di cui voglio parlarvi oggi è appunto il <span style="text-decoration: underline;">sistema di votazione per ottenere punti da poter spendere nel gioco</span>. Dopo essersi [registrati](http://viid.me/9kw9D), sarà sufficiente recarsi sulla [pagina delle votazioni](http://viid.me/9keS4), completare il CAPTCHA e cliccare su "Yes" per votare il server sul sito "Topofgames" e contribuire così a far conoscere il server a nuovi giocatori. Questa operazione aggiunge dei punti al vostro account e potrete votare ogni 2 ore.
 
-[screenshot_19](http://rerosku.altervista.org/wp-content/uploads/Screenshot_19.png)
+![screenshot_19]: http://rerosku.altervista.org/wp-content/uploads/Screenshot_19.png
 Il mio personaggio principale sul server ZesuaV2
 
 Bello vero?.. **NO**
@@ -31,10 +31,11 @@ Bello vero?.. **NO**
 > Stufo di questa situazione, ho cercato e trovato una soluzione gratuita (per le persone cattive che non vogliono supportare il gioco) e una a pagamento (circa 1,50€ ogni 12 giorni) che vi vado a illustrare.
 
 *RAPPELZ ZESUA AUTOVOTE BOT #1 FOR BAD PEOPLE*
+
  Il primo metodo consiste nello sfruttare un bug del sistema di voti. Infatti <span style="text-decoration: underline;">non serve completare il captcha</span> e cliccare su "yes" per far sì che i punti vengano accreditati, vi basta visitare la [pagina delle votazioni](http://viid.me/9keS4) ogni 2 ore per ricevere i punti, senza fare altro. Tuttavia come possiamo fare per automatizzare il processo? Ci serve quanto segue:
- 1\. [Browser Firefox](http://viid.me/9kmNk)
- 2\. [Plugin iMacros](http://viid.me/9kQyr)
- 3\. Plugin [My Weekly Browsing Schedule](http://viid.me/9kQbC)
+* 1. [Browser Firefox](http://viid.me/9kmNk)
+* 2. [Plugin iMacros](http://viid.me/9kQyr)
+* 3. Plugin [My Weekly Browsing Schedule](http://viid.me/9kQbC)
 
  **Installiamo Firefox**
   <span style="text-decoration: underline;">non serve impostarlo come browser principale</span> o fare login per la sincronizzazione, ci serve solo come mulo per automatizzare la votazione. Se non volete installarlo, potete anche scaricare la versione portable da [QUI](http://viid.me/9kQPE).

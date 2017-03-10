@@ -5,13 +5,13 @@
         <description>Quello che cercavi... Forse.</description>
         <link>http://rerosku.github.io/</link>
         <atom:link href="http://rerosku.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 10 Mar 2017 17:37:32 +0000</pubDate>
-        <lastBuildDate>Fri, 10 Mar 2017 17:37:32 +0000</lastBuildDate>
+        <pubDate>Fri, 10 Mar 2017 17:46:03 +0000</pubDate>
+        <lastBuildDate>Fri, 10 Mar 2017 17:46:03 +0000</lastBuildDate>
         <generator>Jekyll v3.1.6</generator>
         
             <item>
                 <title>Rappelz Zesua Bot per Voti Automatici</title>
-                <description>&lt;center&gt;![zesua](http://rerosku.altervista.org/wp-content/uploads/zesua.png)&lt;/center&gt;
+                <description>&lt;p&gt;![logo]: http://rerosku.altervista.org/wp-content/uploads/zesua.png “Rappelz Zesua Server”&lt;/p&gt;
 
 &lt;p&gt;Rappelz ha di sicuro ottenuto un grandissimo successo negli anni che vanno dal 2005 al 2012. Anche oggi ci sono moltissimi giocatori attivi, ma giocare nei server ufficiali è ormai noioso e impossibile. Oggi vi parlo di un server privato, chiamato Rappelz Zesua e vi spiegherò come ottenere vote points infiniti grazie ad un piccolo “BOT” casalingo.&lt;/p&gt;
 
@@ -24,7 +24,7 @@
 
 &lt;p&gt;Quello di cui voglio parlarvi oggi è appunto il &lt;span style=&quot;text-decoration: underline;&quot;&gt;sistema di votazione per ottenere punti da poter spendere nel gioco&lt;/span&gt;. Dopo essersi &lt;a href=&quot;http://viid.me/9kw9D&quot;&gt;registrati&lt;/a&gt;, sarà sufficiente recarsi sulla &lt;a href=&quot;http://viid.me/9keS4&quot;&gt;pagina delle votazioni&lt;/a&gt;, completare il CAPTCHA e cliccare su “Yes” per votare il server sul sito “Topofgames” e contribuire così a far conoscere il server a nuovi giocatori. Questa operazione aggiunge dei punti al vostro account e potrete votare ogni 2 ore.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://rerosku.altervista.org/wp-content/uploads/Screenshot_19.png&quot;&gt;screenshot_19&lt;/a&gt;
+&lt;p&gt;![screenshot_19]: http://rerosku.altervista.org/wp-content/uploads/Screenshot_19.png
 Il mio personaggio principale sul server ZesuaV2&lt;/p&gt;
 
 &lt;p&gt;Bello vero?.. &lt;strong&gt;NO&lt;/strong&gt;&lt;/p&gt;
@@ -35,11 +35,12 @@ Il mio personaggio principale sul server ZesuaV2&lt;/p&gt;
   &lt;p&gt;Stufo di questa situazione, ho cercato e trovato una soluzione gratuita (per le persone cattive che non vogliono supportare il gioco) e una a pagamento (circa 1,50€ ogni 12 giorni) che vi vado a illustrare.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;em&gt;RAPPELZ ZESUA AUTOVOTE BOT #1 FOR BAD PEOPLE&lt;/em&gt;
- Il primo metodo consiste nello sfruttare un bug del sistema di voti. Infatti &lt;span style=&quot;text-decoration: underline;&quot;&gt;non serve completare il captcha&lt;/span&gt; e cliccare su “yes” per far sì che i punti vengano accreditati, vi basta visitare la &lt;a href=&quot;http://viid.me/9keS4&quot;&gt;pagina delle votazioni&lt;/a&gt; ogni 2 ore per ricevere i punti, senza fare altro. Tuttavia come possiamo fare per automatizzare il processo? Ci serve quanto segue:
- 1. &lt;a href=&quot;http://viid.me/9kmNk&quot;&gt;Browser Firefox&lt;/a&gt;
- 2. &lt;a href=&quot;http://viid.me/9kQyr&quot;&gt;Plugin iMacros&lt;/a&gt;
- 3. Plugin &lt;a href=&quot;http://viid.me/9kQbC&quot;&gt;My Weekly Browsing Schedule&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;RAPPELZ ZESUA AUTOVOTE BOT #1 FOR BAD PEOPLE&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Il primo metodo consiste nello sfruttare un bug del sistema di voti. Infatti &lt;span style=&quot;text-decoration: underline;&quot;&gt;non serve completare il captcha&lt;/span&gt; e cliccare su “yes” per far sì che i punti vengano accreditati, vi basta visitare la &lt;a href=&quot;http://viid.me/9keS4&quot;&gt;pagina delle votazioni&lt;/a&gt; ogni 2 ore per ricevere i punti, senza fare altro. Tuttavia come possiamo fare per automatizzare il processo? Ci serve quanto segue:
+* 1. &lt;a href=&quot;http://viid.me/9kmNk&quot;&gt;Browser Firefox&lt;/a&gt;
+* 2. &lt;a href=&quot;http://viid.me/9kQyr&quot;&gt;Plugin iMacros&lt;/a&gt;
+* 3. Plugin &lt;a href=&quot;http://viid.me/9kQbC&quot;&gt;My Weekly Browsing Schedule&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Installiamo Firefox&lt;/strong&gt;
   &lt;span style=&quot;text-decoration: underline;&quot;&gt;non serve impostarlo come browser principale&lt;/span&gt; o fare login per la sincronizzazione, ci serve solo come mulo per automatizzare la votazione. Se non volete installarlo, potete anche scaricare la versione portable da &lt;a href=&quot;http://viid.me/9kQPE&quot;&gt;QUI&lt;/a&gt;.
