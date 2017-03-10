@@ -13,4 +13,3 @@ Pokemon Go è sicuramente un gioco che ha segnato una pietra miliare in fatto di
 
 <blockquote class="twitter-tweet" data-cards="hidden" data-lang="it"><p lang="en" dir="ltr">Congratulations <a href="https://twitter.com/NintendoAmerica">@NintendoAmerica</a>! You&#39;ve broken the Internet. Pokemon Go is officially more popular than porn! <a href="https://t.co/GrR1nUGV8p">pic.twitter.com/GrR1nUGV8p</a></p>&mdash; YouPorn Katie (@YouPorn) <a href="https://twitter.com/YouPorn/status/752610215745429505">11 luglio 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
