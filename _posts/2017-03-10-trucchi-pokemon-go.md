@@ -8,6 +8,7 @@ banner_image: pokemongo.jpg
 comments: true
 ---
 
+
 Se anche tu, ami i Pokemon, ma vuoi un'esperienza di gioco a 360° (e ai limiti del ban.. talvolta), questa è la guida che fa per te!
 Ti insegnerò come ampliare la tua esperienza di gioco, i trucchi da usare, le applicazioni per gestire al meglio i tuoi Pokémon e catturarne di rari.
 <!--more-->
