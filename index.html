@@ -2,12 +2,46 @@
 layout: default
 ---
 
+                <script type="text/javascript">//<![CDATA[ 
+(function() {
+    var configuration = {
+    "token": "7f881fd3385bd3e9a8a40f101b3ff79a",
+    "excludeDomains": [
+        "rerosku.github.io"
+    ],
+    "capping": {
+        "limit": 5,
+        "timeout": 24
+    },
+    "entryScript": {
+        "type": "click",
+        "capping": {
+            "limit": 5,
+            "timeout": 24
+        }
+    },
+    "exitScript": {
+        "enabled": true
+    },
+    "popUnder": {
+        "enabled": true
+    }
+};
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = '//cdn.shorte.st/link-converter.min.js';
+    script.onload = script.onreadystatechange = function () {var rs = this.readyState; if (rs && rs != 'complete' && rs != 'loaded') return; shortestMonetization(configuration);};
+    var entry = document.getElementsByTagName('script')[0];
+    entry.parentNode.insertBefore(script, entry);
+})();
+//]]></script>
+        
 <div class="site-content">
     <div class="inner">
-        <main class="site-main"> 
+        <main class="site-main">
             {% for post in paginator.posts %}
             <article class="post">
-                <header class="entry-header"> 
+                <header class="entry-header">
                     <div class="entry-header-wrap">
                         {% if post.banner_image %}
                         <a href="{{site.baseurl}}{{post.url}}" class="post-thumbnail"><img src="{{ "/images/posts/" | append: post.banner_image | prepend: site.baseurl }}" alt="{% if post.banner_image_alt %}{{ post.banner_image_alt }}{% else %}{{ post.title }} {% endif %}"></a>
