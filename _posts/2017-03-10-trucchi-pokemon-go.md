@@ -7,7 +7,16 @@ layout: post
 banner_image: pokemongo.jpg
 comments: true
 ---
-
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- pdn -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-0310143169496959"
+     data-ad-slot="5970575705"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Se anche tu, ami i Pokemon, ma vuoi un'esperienza di gioco a 360° (e ai limiti del ban.. talvolta), questa è la guida che fa per te!
 Ti insegnerò come ampliare la tua esperienza di gioco, i trucchi da usare, le applicazioni per gestire al meglio i tuoi Pokémon e catturarne di rari.
