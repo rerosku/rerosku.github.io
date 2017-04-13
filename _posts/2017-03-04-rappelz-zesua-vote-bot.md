@@ -8,6 +8,16 @@ layout: post
 banner_image: rappelz.jpg
 comments: true
 ---
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- pdn -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-0310143169496959"
+     data-ad-slot="5970575705"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <center><img src="http://rerosku.altervista.org/wp-content/uploads/zesua.png" /></center>
 
