@@ -1,5 +1,12 @@
 ---
-published: false
+title: Sidify Music Converter: Scaricare musica da Spotify!
+date: 2017-07-07 00:00:00 Z
+tags:
+- Spotify
+- Crack
+layout: post
+banner_image: sidify.jpg
+comments: true
 ---
 ## Sidify Music Converter: Scaricare musica da Spotify
 ![](https://image.ibb.co/gjJ7ua/sidify.jpg)
@@ -9,7 +16,7 @@ Con **Sidify Music Converter** si può finalmente sfruttare l'infinito database 
 
 ![](https://image.ibb.co/fQxT0F/Ashampoo_Snap_Tuesday_June_27_2017_08h47m03s_002_High_Optimized.png)
 
-Non ti basta? E se ti dicessi che le canzoni contengono tutti i metadati come titolo, autore, album e anche copertina? 
+Non ti basta? E se ti dicessi che le canzoni contengono tutti i metadati come titolo, autore, album e anche copertina?
 
 Sidify Music Converter infatti analizza il nome della traccia da Spotify, inserisce tutti i tag al posto giusto e completa l'opera con la cover originale della canzone in questione. Davvero FAN-TA-STI-CO!
 
