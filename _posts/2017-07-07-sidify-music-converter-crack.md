@@ -36,7 +36,9 @@ Non andare via, nel caso non fossi ancora convinto... ti dò un' altra notizia: 
 Qui di seguito trovate il link per scaricare il file d'installazione più la crack forniti da [PirateHax.net](https://piratehax.net/) e le istruzioni per installarlo e farlo funzionare correttamente.
 
 ![](https://image.ibb.co/civqfF/k9WXLiL.png)
-<a href="http://corneey.com/qC0uHU"><img src="https://image.ibb.co/kgOAfF/Download_Button.png" alt="Download_Button" border="0"></a>
+<a href="http://corneey.com/qC0uHU">
+
+<img src="https://image.ibb.co/kgOAfF/Download_Button.png" alt="Download_Button" border="0"></a>
 
 **Come installarlo e farlo funzionare:**
 
