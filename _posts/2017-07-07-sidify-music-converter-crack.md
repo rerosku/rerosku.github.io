@@ -5,7 +5,7 @@ tags:
 - Spotify
 - Crack
 layout: post
-banner_image: sidify.jpg
+banner_image: ![](https://image.ibb.co/gjJ7ua/sidify.jpg)
 comments: true
 ---
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
