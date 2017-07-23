@@ -1,14 +1,16 @@
 ---
+layout: page
+title: "Chi sono?"
 ---
 
-**Alex** (aka **Rerosku**) is a tech lover always looking for some new challenges.
+**Alex** (aka **Rerosku**) è un amante della tecnologia sempre alla ricerca di nuove sfide.
 
-The latest is Jekyll and a static blog wit GitHub.. challenging!
+L'ultima? Questo sito realizzato usando Jekyll... che fatica!
 
-I like to find solutions to everyday's problems and write articles about it so that other won't go through the struggle of figuring it out by themselves.
+Mi piace trovare soluzioni non convenzionali e alternative ai problemi di tutti i giorni per poi scrivere articoli a riguardo in modo che le persone con lo stesso problema trovino sul mio sito una soluzione completa, immediata e di facile comprensione.
 
 >Massimo Risultato, Minimo Sforzo <cite>André Martinet</cite>
 
-Follow me and I'll show you that you don't ALWAYS need something just because it's a trend. There are many better alternatives!
+Seguimi! E scoprirai che non sempre una moda è il massimo a cui puoi aspirare. Ci sono alternative sconosciute di gran lunga superiori!
 
-*Why join the navy if you can be a pirate ?*
+*Why join the navy if you can be a pirate ? ⚓*
