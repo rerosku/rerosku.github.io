@@ -5,7 +5,7 @@ date: "2017-07-23 09:54:20 +0200"
 tags:
 - MMORPG
 - Digimon
-banner_image: sidify.jpg
+banner_image: digimon1.jpg
 comments: true
 ---
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -19,5 +19,5 @@ comments: true
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-
+L'attesa è finita! Finalmente con Tamer Frontier possiamo giocare una vera avventura MMO 3D a Digimon World!
 <!--more-->
