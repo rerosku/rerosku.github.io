@@ -10,7 +10,7 @@ collections:
     output: true
 description: Quello che cercavi... Forse.
 tagline: Guide, Hack & Cheats, How-To, DIY e pensieri vari.
-baseurl: 
+baseurl:
 sass:
   sass_dir: _sass
 url: http://rerosku.github.io
@@ -25,14 +25,14 @@ disqus: perledinerdezza
 author_name: Rerosku
 author_bio: 'Geek, Drogato di Serie TV, Party Animal e fermo sostenitore della scuola
   di pensiero: Massimo Risultato, Minimo Sforzo'
-author_url: http://perledinerdezza.cu.cc
+author_url: http://rerosku.github.io
 author_location: Biella, Italia
-author_image: https://tlgur.com/d/yGOVznM8
+author_image: images/rerosku.jpg
 banner_url: http://ororo.tv/ref/382304
 banner_image: images/ororo.jpg
 twitter_username: perledinerdezza
 facebook_username: perle.di.nerdezza
-googleplus_username: "+rerosku"
+googleplus_username: "+AlessandroNardi"
 github_username: rerosku
 instagram_username: perle.di.nerdezza
 paginate: 5
