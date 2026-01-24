@@ -1,0 +1,28 @@
+# Category definitions
+websmart:
+  name: "WebSmart"
+  icon: "💻"
+  color: "#2ecc71"
+  description: "Risorse, guide e strumenti per lo sviluppo web moderno. Dal coding al design, strategie per creare esperienze digitali eccezionali."
+  featured: true
+
+awakena:
+  name: "Awakena"
+  icon: "🧘"
+  color: "#9b59b6"
+  description: "Crescita personale, consapevolezza e spiritualità. Percorsi per risvegliare la mente e connettersi con il proprio sé interiore."
+  featured: true
+
+reiki:
+  name: "Reiki"
+  icon: "✨"
+  color: "#e74c3c"
+  description: "Energia universale e guarigione olistica. Scopri l'arte del Reiki per il benessere fisico, emotivo e spirituale."
+  featured: true
+
+vita-off-grid:
+  name: "Vita Off-Grid"
+  icon: "🏕️"
+  color: "#f39c12"
+  description: "Vita sostenibile, autosufficienza e connessione con la natura. Esperienze e consigli per vivere fuori dalla rete."
+  featured: true

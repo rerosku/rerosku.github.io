@@ -1,0 +1,84 @@
+---
+layout: default
+---
+
+<!-- Category Buttons -->
+<div class="category-buttons">
+  {% for category_data in site.data.categories %}
+    {% assign category_key = category_data[0] %}
+    {% assign category = category_data[1] %}
+    {% if category.featured %}
+      <a href="/{{ category_key }}/" class="category-btn {{ category_key }}">
+        <span class="category-icon">{{ category.icon }}</span>
+        <span class="category-title">{{ category.name }}</span>
+      </a>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<!-- Latest Posts -->
+<section class="posts-section">
+  <h2 class="section-title">Ultimi Articoli</h2>
+  
+  {% assign latest_posts = site.posts | slice: 0, 3 %}
+  {% if latest_posts.size > 0 %}
+    <div class="posts-grid">
+      {% for post in latest_posts %}
+        <a href="{{ post.url | relative_url }}" class="post-card">
+          <div class="post-header">
+            {% for category in post.category limit: 1 %}
+              {% assign cat_data = site.data.categories[category] %}
+              {% if cat_data %}
+                <span class="post-category {{ category }}">
+                  {{ cat_data.icon }} {{ cat_data.name }}
+                </span>
+              {% endif %}
+            {% endfor %}
+            <time class="post-date" datetime="{{ post.date | date_to_xmlschema }}">
+              {{ post.date | date: "%d %b %Y" }}
+            </time>
+          </div>
+          
+          <h3 class="post-title">{{ post.title | escape }}</h3>
+          
+          {% if post.excerpt %}
+            <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 120 }}</p>
+          {% endif %}
+        </a>
+      {% endfor %}
+    </div>
+  {% else %}
+    <p style="text-align: center; color: var(--color-gray); padding: 2rem;">
+      📝 Nessun articolo pubblicato ancora. Inizia scrivendo il tuo primo post!
+    </p>
+  {% endif %}
+</section>
+
+<!-- Contact Form -->
+<section class="contact-section">
+  <h2 class="contact-title">📬 Contattami</h2>
+  
+  <form action="{{ site.data.author.contact.formspree_url | default: 'https://formspree.io/f/YOUR_FORM_ID' }}" method="POST" class="contact-form">
+    <div class="form-group">
+      <label for="name" class="form-label">Nome</label>
+      <input type="text" id="name" name="name" class="form-input" placeholder="Il tuo nome" required>
+    </div>
+    
+    <div class="form-group">
+      <label for="email" class="form-label">Email</label>
+      <input type="email" id="email" name="email" class="form-input" placeholder="{{ site.data.author.contact.email_placeholder | default: "tua@email.com" }}" required>
+    </div>
+    
+    <div class="form-group">
+      <label for="subject" class="form-label">Oggetto</label>
+      <input type="text" id="subject" name="subject" class="form-input" placeholder="{{ site.data.author.contact.subject_placeholder | default: "Ciao!" }}" required>
+    </div>
+    
+    <div class="form-group">
+      <label for="message" class="form-label">Messaggio</label>
+      <textarea id="message" name="message" class="form-textarea" placeholder="Scrivi il tuo messaggio qui..." required></textarea>
+    </div>
+    
+    <button type="submit" class="form-button">Invia Messaggio</button>
+  </form>
+</section>
