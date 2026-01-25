@@ -1,0 +1,62 @@
+# Site settings
+title: "Il Mio Spazio Web"
+email: mio@email.com
+description: "Benvenutǝ nel mio spazio personale sul web - un viaggio di scoperta e condivisione"
+url: "https://tuousername.github.io"
+baseurl: ""
+
+# Author settings
+author:
+  name: "Mario Rossi"
+  bio: "Esploratore digitale, appassionato di tecnologia, spiritualità e vita sostenibile. Condivido idee e progetti per un mondo migliore."
+  tagline: "Sviluppo web • Consapevolezza • Energie rinnovabili • Viaggi"
+  avatar: "/assets/images/avatar.jpg"
+  location: "Italia"
+  social:
+    instagram: "https://instagram.com/tuousername"
+    bluesky: "https://bsky.app/profile/tuousername.bsky.social"
+    github: "https://github.com/tuousername"
+    email: "mailto:mario@example.com"
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+
+# Pagination (GitHub Pages compatible)
+paginate: 5
+paginate_path: "/page:num/"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: null
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .bundle
+  - .sass-cache
+  - .jekyll-cache
+  - .jekyll-metadata
+  - README.md
+  - LICENSE
+
+# Sass (disabilitato per CSS inline)
+sass:
+  style: compressed
+
+# Timezone
+timezone: Europe/Rome
+
+# Liquid
+liquid:
+  error_mode: warn
