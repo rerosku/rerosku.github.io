@@ -1,28 +1,28 @@
 # Author information
-name: "Mario Rossi"
-bio: "Esploratore digitale, appassionato di tecnologia, spiritualità e vita sostenibile. Condivido idee e progetti per un mondo migliore."
-tagline: "Sviluppo web • Consapevolezza • Energie rinnovabili • Viaggi"
+name: "Alessandro Nardi"
+bio: "Alchemical Coach e Reikista, appassionato di tecnologia, spiritualità e vita sostenibile. Condivido idee e progetti per un mondo migliore."
+tagline: "Reiki • Consapevolezza • Personalità • Downshifting"
 avatar: "/assets/images/avatar.jpg"
 location: "Italia"
 social:
-  instagram: "https://instagram.com/tuousername"
-  bluesky: "https://bsky.app/profile/tuousername.bsky.social"
-  github: "https://github.com/tuousername"
-  email: "mailto:mario@example.com"
+  instagram: "https://instagram.com/rerosku"
+  bluesky: "https://bsky.app/profile/awakena.bsky.social"
+  github: "https://github.com/rerosku"
+  email: "mailto: rerosku@gmail.com"
 
 # Skills in pillole
 skills:
-  - name: "Web Dev"
+  - name: "Alchemical Coaching"
     color: "#2ecc71"
-  - name: "Kimi"
+  - name: "Personalità"
     color: "#9b59b6"
   - name: "Reiki"
     color: "#e74c3c"
-  - name: "Off-Grid"
+  - name: "Downshifting"
     color: "#f39c12"
-  - name: "SEO"
+  - name: "Open Source"
     color: "#3498db"
-  - name: "Minimalismo"
+  - name: "Alternatives"
     color: "#1abc9c"
 
 # Contact form
