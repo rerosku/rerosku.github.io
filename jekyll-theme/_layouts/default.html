@@ -18,7 +18,7 @@
   <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   
   <!-- Favicon -->
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌐</text></svg>">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>">
   
   <!-- Custom CSS -->
   {% include head-custom.html %}
@@ -27,28 +27,7 @@
   <div class="container">
     <header class="header">
       {% if page.url == "/" %}
-        <!-- Homepage Profile -->
-        <div class="profile">
-          {% if site.data.author.avatar %}
-            <img src="{{ site.data.author.avatar | relative_url }}" alt="{{ site.data.author.name }}" class="profile-avatar">
-          {% else %}
-            <div style="width: 150px; height: 150px; border-radius: 50%; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); margin: 0 auto 1.5rem; display: flex; align-items: center; justify-content: center; font-size: 3rem; color: white;">👤</div>
-          {% endif %}
-          
-          <h1 class="profile-name">{{ site.data.author.name | default: "Il Mio Nome" }}</h1>
-          
-          <p class="profile-bio">
-            {{ site.data.author.bio | default: "Benvenutǝ nel mio spazio personale sul web." }}
-          </p>
-          
-          {% if site.data.author.skills %}
-            <div class="skills-container">
-              {% for skill in site.data.author.skills %}
-                <span class="skill-pill {{ skill.name | downcase | replace: ' ', '-' }}">{{ skill.name }}</span>
-              {% endfor %}
-            </div>
-          {% endif %}
-        </div>
+        <!-- Homepage Profile - Ora gestito direttamente in index.html -->
       {% else %}
         <!-- Category/Post Header -->
         {% if page.collection == "pages" %}

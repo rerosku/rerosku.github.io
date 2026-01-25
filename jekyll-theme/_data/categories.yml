@@ -26,3 +26,17 @@ vita-off-grid:
   color: "#f39c12"
   description: "Vita sostenibile, autosufficienza e connessione con la natura. Esperienze e consigli per vivere fuori dalla rete."
   featured: true
+
+pensieri:
+  name: "Pensieri"
+  icon: "💭"
+  color: "#1abc9c"
+  description: "Riflessioni personali, pensieri sparsi e considerazioni sulla vita, l'universo e tutto quanto."
+  featured: true
+
+esperidio:
+  name: "La Ricerca dell'Esperidio"
+  icon: "🔍"
+  color: "#e67e22"
+  description: "Un viaggio nella scoperta della personalità attraverso l'esplorazione interiore e l'analisi psicologica."
+  featured: false

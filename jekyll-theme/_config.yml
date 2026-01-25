@@ -1,20 +1,22 @@
 # Site settings
-title: "Rerosku"
-email: rerosku@gmail.com
-description: "Benvenutǝ nel mio spazio personale sul web"
-url: "https://rerosku.github.io"
+title: "Il Mio Spazio Web"
+email: mio@email.com
+description: "Benvenutǝ nel mio spazio personale sul web - un viaggio di scoperta e condivisione"
+url: "https://tuousername.github.io"
 baseurl: ""
 
 # Author settings
 author:
-  name: "Alessandro Nardi"
-  bio: "Alchemical Coach e Reikista, appassionato di tecnologia e spiritualità"
+  name: "Mario Rossi"
+  bio: "Esploratore digitale, appassionato di tecnologia, spiritualità e vita sostenibile. Condivido idee e progetti per un mondo migliore."
+  tagline: "Sviluppo web • Consapevolezza • Energie rinnovabili • Viaggi"
   avatar: "/assets/images/avatar.jpg"
   location: "Italia"
   social:
-    instagram: "https://instagram.com/rerosku"
-    bluesky: "https://bsky.app/profile/rerosku.bsky.social"
-    github: "https://github.com/rerosku"
+    instagram: "https://instagram.com/tuousername"
+    bluesky: "https://bsky.app/profile/tuousername.bsky.social"
+    github: "https://github.com/tuousername"
+    email: "mailto:mario@example.com"
 
 # Collections
 collections:
