@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<article class="post-page">
+  <header class="post-page-header">
+    <nav>
+      <a href="/" class="back-button">← Home</a>
+    </nav>
+    
+    <div class="post-page-meta">
+      {% for category in page.category %}
+        {% assign cat_data = site.data.categories[category] %}
+        {% if cat_data %}
+          <span class="post-category {{ category }}">{{ cat_data.icon }} {{ cat_data.name }}</span>
+        {% endif %}
+      {% endfor %}
+      
+      <time datetime="{{ page.date | date_to_xmlschema }}">
+        {{ page.date | date: "%d %B %Y" }}
+      </time>
+    </div>
+    
+    <h1 class="post-page-title">{{ page.title | escape }}</h1>
+  </header>
+  
+  <div class="post-page-content">
+    {{ content }}
+  </div>
+</article>
