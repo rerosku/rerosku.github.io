@@ -18,7 +18,7 @@ reiki:
   icon: "✨"
   color: "#e74c3c"
   description: "Energia universale e guarigione olistica. Scopri l'arte del Reiki per il benessere fisico, emotivo e spirituale."
-  featured: true
+  featured: false
 
 vita-off-grid:
   name: "Vita Off-Grid"
