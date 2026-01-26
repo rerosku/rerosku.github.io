@@ -3,7 +3,7 @@ websmart:
   name: "WebSmart"
   icon: "💻"
   color: "#2ecc71"
-  description: "WebSmart è l'incrocio tra la curiosità tecnica e la consapevolezza critica: una raccolta di "perle di nerdezza" che nascono dall'esperienza diretta e dalla ricerca costante di vie alternative al mainstream digitale. È la categoria dove la tecnologia smette di essere qualcosa che "ti capita" e diventa uno strumento che scegli consapevolmente."
+  description: "WebSmart è l'incrocio tra la curiosità tecnica e la consapevolezza critica: una raccolta di perle di nerdezza che nascono dall'esperienza diretta e dalla ricerca costante di vie alternative al mainstream digitale. È la categoria dove la tecnologia smette di essere qualcosa che ti capita e diventa uno strumento che scegli consapevolmente."
   featured: true
 
 awakena:
