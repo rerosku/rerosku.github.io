@@ -8,10 +8,12 @@ gem "jekyll-feed", "~> 0.15"
 gem "jekyll-sitemap", "~> 1.4"
 gem "jekyll-paginate", "~> 1.1"
 
+# Required gems (NOT plugins)
+gem "webrick"
+gem "kramdown-parser-gfm"
+
 group :jekyll_plugins do
   gem "jekyll-admin"
-  gem "webrick"
-  gem "kramdown-parser-gfm"
 end
 
 # GitHub Pages gem (optional, for local testing)
