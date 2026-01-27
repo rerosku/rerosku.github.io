@@ -1,5 +1,10 @@
 ---
-title: 'La Dualità dell’Uomo Moderno: Maschere e Radici Perdute'
+layout: post
+title: "La Dualità dell’Uomo Moderno: Maschere e Radici Perdute"
+date: 2026-01-27 10:30:00 +0200
+category: pensieri
+excerpt: "Ombre e Radici: Tra le Ombre della Città e il Sussurro della Terra, Quando la Maschera Diventa Casa e il Silenzio uno Straniero"
+tags: [riflessioni, crescita-personale, tecnologia, consapevolezza]
 ---
 
 ### Ombre e Radici: Tra le Ombre della Città e il Sussurro della Terra, Quando la Maschera Diventa Casa e il Silenzio uno Straniero

@@ -5,19 +5,27 @@
     <description>Alchemical Coach e Reikista sono solo alcune delle sfaccettature di Alessandro Nardi. In questo sito scrivo i miei pensieri e condivido la mia esperienza</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 27 Jan 2026 10:42:36 +0100</pubDate>
-    <lastBuildDate>Tue, 27 Jan 2026 10:42:36 +0100</lastBuildDate>
+    <pubDate>Tue, 27 Jan 2026 10:49:03 +0100</pubDate>
+    <lastBuildDate>Tue, 27 Jan 2026 10:49:03 +0100</lastBuildDate>
     <generator>Jekyll v3.9.5</generator>
     
       <item>
         <title>La Dualità dell’Uomo Moderno: Maschere e Radici Perdute</title>
-        <description>&lt;h3 id=&quot;ombre-e-radici-tra-le-ombre-della-città-e-il-sussurro-della-terra-quando-la-maschera-diventa-casa-e-il-silenzio-uno-straniero&quot;&gt;Ombre e Radici: Tra le Ombre della Città e il Sussurro della Terra, Quando la Maschera Diventa Casa e il Silenzio uno Straniero&lt;/h3&gt;
-
-</description>
-        <pubDate>Tue, 27 Jan 2026 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2026/01/27/dualita-uomo-moderno.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2026/01/27/dualita-uomo-moderno.html</guid>
+        <description>Ombre e Radici: Tra le Ombre della Città e il Sussurro della Terra, Quando la Maschera Diventa Casa e il Silenzio uno Straniero</description>
+        <pubDate>Tue, 27 Jan 2026 09:30:00 +0100</pubDate>
+        <link>http://localhost:4000/pensieri/2026/01/27/dualita-uomo-moderno.html</link>
+        <guid isPermaLink="true">http://localhost:4000/pensieri/2026/01/27/dualita-uomo-moderno.html</guid>
         
+        <category>riflessioni</category>
+        
+        <category>crescita-personale</category>
+        
+        <category>tecnologia</category>
+        
+        <category>consapevolezza</category>
+        
+        
+        <category>pensieri</category>
         
       </item>
     
