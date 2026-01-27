@@ -11,6 +11,7 @@ gem "jekyll-paginate", "~> 1.1"
 group :jekyll_plugins do
   gem "jekyll-admin"
   gem "webrick"
+  gem "kramdown-parser-gfm"
 end
 
 # GitHub Pages gem (optional, for local testing)
