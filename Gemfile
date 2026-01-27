@@ -8,6 +8,10 @@ gem "jekyll-feed", "~> 0.15"
 gem "jekyll-sitemap", "~> 1.4"
 gem "jekyll-paginate", "~> 1.1"
 
+group :jekyll_plugins do
+  gem "jekyll-admin"
+end
+
 # GitHub Pages gem (optional, for local testing)
 # gem "github-pages", group: :jekyll_plugins
 
