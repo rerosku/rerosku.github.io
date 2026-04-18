@@ -44,7 +44,7 @@ permalink: /contatti/
 
       <div class="lg:col-span-3 reveal">
         <form class="bg-white rounded-3xl p-8 lg:p-10 shadow-xl shadow-salvia-100/50 border border-salvia-100/50" action="https://api.web3forms.com/submit" method="POST">
-          <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY">
+          <input type="hidden" name="access_key" value="5825a241-993e-4e6a-a9ec-b118c063d57b">
           <input type="hidden" name="subject" value="Nuovo messaggio da Essenza & Consapevolezza">
           <input type="hidden" name="from_name" value="Essenza & Consapevolezza">
           <input type="checkbox" name="botcheck" class="hidden" style="display:none">
