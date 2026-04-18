@@ -1,0 +1,60 @@
+---
+---
+@use "variables" as *;
+@use "base";
+@use "components";
+@use "animations";
+
+/* Prose styles per i post */
+.prose {
+  max-width: 65ch;
+}
+
+.prose p {
+  margin-bottom: 1.25em;
+  line-height: 1.75;
+}
+
+.prose h2 {
+  font-family: $font-display;
+  font-size: 1.875rem;
+  font-weight: 500;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  color: $salvia-800;
+}
+
+.prose h3 {
+  font-family: $font-display;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  color: $salvia-700;
+}
+
+.prose blockquote {
+  border-left: 4px solid $salvia-300;
+  padding-left: 1.25em;
+  font-style: italic;
+  color: $salvia-600;
+}
+
+.prose ul,
+.prose ol {
+  margin-left: 1.5em;
+  margin-bottom: 1.25em;
+}
+
+.prose li {
+  margin-bottom: 0.5em;
+}
+
+.prose a {
+  color: $salvia-500;
+  text-decoration: underline;
+}
+
+.prose strong {
+  color: $salvia-700;
+}

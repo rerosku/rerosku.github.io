@@ -1,0 +1,39 @@
+<footer class="bg-gradient-to-b from-blu-900 to-blu-950 text-blu-200 py-16">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid md:grid-cols-3 gap-12 mb-12">
+      <div>
+        <div class="flex items-center gap-3 mb-4">
+          <div
+            class="w-10 h-10 rounded-full bg-gradient-to-br from-salvia-400 to-blu-400 flex items-center justify-center">
+            <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
+            </svg>
+          </div>
+          <span class="font-display text-xl font-semibold text-white tracking-wide">Essenza</span>
+        </div>
+        <p class="text-blu-300 leading-relaxed text-sm">Accompagnamento olistico verso il benessere completo di
+          corpo, mente e spirito.</p>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Link Rapidi</h4>
+        <ul class="space-y-2">
+          <li><a href="/" class="text-blu-300 hover:text-white transition-colors text-sm">Home</a></li>
+          <li><a href="/attivita/" class="text-blu-300 hover:text-white transition-colors text-sm">Attività</a></li>
+          <li><a href="/blog/" class="text-blu-300 hover:text-white transition-colors text-sm">Blog</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Orari</h4>
+        <ul class="space-y-2 text-sm text-blu-300">
+          <li>Lun — Ven: 9:00 — 19:00</li>
+          <li>Sabato: 9:00 — 13:00</li>
+          <li>Domenica: chiuso</li>
+        </ul>
+      </div>
+    </div>
+    <div class="border-t border-blu-800 pt-8 text-center">
+      <p class="text-xs text-blu-400">© {{ site.time | date: "%Y" }} {{ site.title }}. Tutti i diritti riservati.</p>
+    </div>
+  </div>
+</footer>

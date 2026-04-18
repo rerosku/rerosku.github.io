@@ -1,0 +1,49 @@
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-500">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-20">
+      <a href="/" class="flex items-center gap-3 group">
+        <div
+          class="w-10 h-10 rounded-full bg-gradient-to-br from-salvia-400 to-blu-400 flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
+          <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+            <path
+              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
+          </svg>
+        </div>
+        <span class="font-display text-xl font-semibold text-salvia-700 tracking-wide">Essenza</span>
+      </a>
+
+      <div class="hidden md:flex items-center gap-8">
+        <a href="/"
+          class="text-sm font-medium text-salvia-600 hover:text-salvia-800 transition-colors relative group">Home<span
+            class="absolute -bottom-1 left-0 w-0 h-0.5 bg-salvia-400 transition-all duration-300 group-hover:w-full"></span></a>
+        <a href="/attivita/"
+          class="text-sm font-medium text-salvia-600 hover:text-salvia-800 transition-colors relative group">Attività<span
+            class="absolute -bottom-1 left-0 w-0 h-0.5 bg-salvia-400 transition-all duration-300 group-hover:w-full"></span></a>
+        <a href="/blog/"
+          class="text-sm font-medium text-salvia-600 hover:text-salvia-800 transition-colors relative group">Blog<span
+            class="absolute -bottom-1 left-0 w-0 h-0.5 bg-salvia-400 transition-all duration-300 group-hover:w-full"></span></a>
+        <a href="/contatti/"
+          class="ml-2 px-6 py-2.5 bg-gradient-to-r from-salvia-500 to-salvia-600 text-white text-sm font-medium rounded-full hover:from-salvia-600 hover:to-salvia-700 transition-all duration-300 shadow-lg shadow-salvia-200/50">Prenota
+          una sessione</a>
+      </div>
+
+      <button id="mobile-menu-btn"
+        class="md:hidden p-2 rounded-lg text-salvia-600 hover:bg-salvia-100 transition-colors">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <div id="mobile-menu" class="md:hidden hidden bg-crema-50/95 backdrop-blur-lg border-t border-salvia-100">
+    <div class="px-4 py-4 space-y-3">
+      <a href="/" class="block px-4 py-2 text-salvia-700 hover:bg-salvia-50 rounded-lg">Home</a>
+      <a href="/attivita/" class="block px-4 py-2 text-salvia-700 hover:bg-salvia-50 rounded-lg">Attività</a>
+      <a href="/blog/" class="block px-4 py-2 text-salvia-700 hover:bg-salvia-50 rounded-lg">Blog</a>
+      <a href="/contatti/" class="block px-4 py-2 text-salvia-700 hover:bg-salvia-50 rounded-lg">Contatti</a>
+      <a href="/contatti/"
+        class="block px-4 py-2.5 bg-salvia-500 text-white text-center rounded-full font-medium">Prenota una sessione</a>
+    </div>
+  </div>
+</nav>

@@ -1,62 +1,41 @@
-# Site settings
-title: "Alessandro Nardi - Reikista e Alchemical Coach"
-email: reeosku@gmail.com
-description: "Alchemical Coach e Reikista sono solo alcune delle sfaccettature di Alessandro Nardi. In questo sito scrivo i miei pensieri e condivido la mia esperienza"
-url: "https://rerosku.github.io"
-baseurl: ""
+title: "Essenza & Consapevolezza"
+description: "Reiki, Coaching Olistico e Consapevolezza di Sé"
+url: "https://www.rerosku.it/" # lascia vuoto per sviluppo locale
+baseurl: "rerosku.github.io" # o il nome del repo se su GitHub Pages
 
-# Author settings
-author:
-  name: "Alessandro Nardi"
-  bio: "Reikista e Alchemical Coach, appassionato di tecnologia, spiritualità e vita sostenibile. Condivido idee e progetti per un mondo migliore."
-  tagline: "Reiki • Consapevolezza • Personalità • Downshifting"
-  avatar: "/assets/images/avatar.jpg"
-  location: "Biella, Italia"
-  social:
-    instagram: "https://instagram.com/rerosku"
-    bluesky: "https://bsky.app/profile/awakena.bsky.social"
-    github: "https://github.com/rerosku"
-    email: "mailto: rerosku@gmail.com"
+# Tema
+theme: null # questo è il tema stesso
 
-# Collections
-collections:
-  pages:
-    output: true
-    permalink: /:name/
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
 
-# Pagination (GitHub Pages compatible)
-paginate: 5
-paginate_path: "/page:num/"
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+  - scope:
+      path: "pages"
+    values:
+      layout: page
+
+# Permalink
+permalink: /blog/:year/:month/:day/:title/
+
+# Categories
+categories:
+  - benessere
+  - reiki
+  - consapevolezza
+  - crescita
 
 # Build settings
 markdown: kramdown
-highlighter: rouge
-theme: null
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-paginate
-
-# Exclude from processing
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
-  - .bundle
-  - .sass-cache
-  - .jekyll-cache
-  - .jekyll-metadata
-  - README.md
-  - LICENSE
-
-# Sass (disabilitato per CSS inline)
-sass:
-  style: compressed
-
-# Timezone
-timezone: Europe/Rome
-
-# Liquid
-liquid:
-  error_mode: warn
+excerpt_separator: <!--more-->

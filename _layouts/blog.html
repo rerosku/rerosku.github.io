@@ -1,0 +1,124 @@
+---
+layout: default
+---
+<section id="blog" class="py-24 bg-white relative overflow-hidden">
+  <div class="deco-circle w-80 h-80 bg-rosmarino-100/30 -bottom-40 -left-40"></div>
+  <div class="deco-circle w-60 h-60 bg-blu-100/20 top-20 right-20"></div>
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+    <div class="text-center max-w-3xl mx-auto mb-16 reveal">
+      <span class="inline-block text-sm font-semibold text-blu-500 uppercase tracking-widest mb-4">Il mio diario</span>
+      <h2 class="font-display text-4xl lg:text-5xl font-light text-salvia-800 mb-6">Blog & <span
+          class="italic text-salvia-500">Riflessioni</span></h2>
+      <p class="text-salvia-600 text-lg leading-relaxed">Esplora le categorie e immergiti nei miei articoli su
+        benessere, crescita personale e pratiche olistiche.</p>
+    </div>
+
+    <!-- CATEGORIE (sempre visibili) -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 lg:gap-6 mb-12 reveal" id="blog-categories">
+      {% assign category_colors = "salvia,blu,rosmarino,salvia" | split: "," %}
+      {% assign category_icons = "heart,sun,lightbulb,chart" | split: "," %}
+      {% assign idx = 0 %}
+
+      {% for category_pair in site.categories %}
+      {% assign cat_name = category_pair[0] %}
+      {% assign cat_posts = category_pair[1] %}
+      {% assign color = category_colors[idx] %}
+      {% assign icon = category_icons[idx] %}
+
+      <button onclick="toggleCategory('{{ cat_name }}')" id="cat-btn-{{ cat_name }}"
+        class="category-card group p-6 bg-gradient-to-br from-{{ color }}-50 to-{{ color }}-100/50 rounded-2xl border border-{{ color }}-100 hover:border-{{ color }}-300 text-center transition-all">
+        <div
+          class="w-12 h-12 mx-auto mb-3 rounded-xl bg-{{ color }}-200 flex items-center justify-center group-hover:scale-110 transition-transform">
+          {% case icon %}
+          {% when "heart" %}
+          <svg class="w-6 h-6 text-{{ color }}-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+              d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+          </svg>
+          {% when "sun" %}
+          <svg class="w-6 h-6 text-{{ color }}-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+              d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+          </svg>
+          {% when "lightbulb" %}
+          <svg class="w-6 h-6 text-{{ color }}-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+              d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+          </svg>
+          {% when "chart" %}
+          <svg class="w-6 h-6 text-{{ color }}-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+              d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+          </svg>
+          {% endcase %}
+        </div>
+        <span class="text-sm font-semibold text-salvia-700 block">{{ cat_name | capitalize }}</span>
+        <span class="text-xs text-salvia-500 mt-1 block">{{ cat_posts.size }} articoli</span>
+      </button>
+
+      {% assign idx = idx | plus: 1 %}
+      {% endfor %}
+    </div>
+
+    <!-- SEZIONI POST (nascoste di default, mostrate al click) -->
+    {% for category_pair in site.categories %}
+    {% assign cat_name = category_pair[0] %}
+    {% assign cat_posts = category_pair[1] | sort: "date" | reverse %}
+
+    <div id="posts-{{ cat_name }}" class="blog-posts-container">
+      <div class="flex items-center gap-3 mb-8 mt-4">
+        <h3 class="font-display text-2xl font-semibold text-salvia-800">Articoli: {{ cat_name | capitalize }}</h3>
+        <span class="px-3 py-1 bg-salvia-100 text-salvia-600 text-xs font-medium rounded-full">{{ cat_posts.size }}
+          articoli</span>
+      </div>
+      <div class="grid md:grid-cols-2 gap-6">
+        {% for post in cat_posts %}
+        <article
+          class="post-card bg-white rounded-2xl border border-salvia-100 overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 cursor-pointer group">
+          <a href="{{ post.url }}" class="block">
+            <div
+              class="aspect-video bg-gradient-to-br from-salvia-50 via-crema-100 to-blu-50 flex items-center justify-center relative overflow-hidden">
+              <span class="text-5xl group-hover:scale-110 transition-transform duration-500">{{ post.emoji | default:
+                "📝" }}</span>
+              <div class="absolute inset-0 bg-salvia-900/0 group-hover:bg-salvia-900/5 transition-colors duration-300">
+              </div>
+            </div>
+            <div class="p-6">
+              <div class="flex items-center gap-3 mb-3">
+                <span class="text-xs text-salvia-400">{{ post.date | date: "%d %B %Y" }}</span>
+                <span class="w-1 h-1 rounded-full bg-salvia-300"></span>
+                <span class="text-xs text-salvia-400">{{ post.read_time | default: "5" }} min di lettura</span>
+              </div>
+              <h4
+                class="font-display text-lg font-semibold text-salvia-800 mb-2 group-hover:text-salvia-600 transition-colors leading-snug">
+                {{ post.title }}</h4>
+              <p class="text-sm text-salvia-500 leading-relaxed">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
+              <div
+                class="mt-4 flex items-center gap-1 text-sm font-medium text-salvia-500 group-hover:text-salvia-700 transition-colors">
+                Leggi l'articolo
+                <svg class="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor"
+                  viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </div>
+            </div>
+          </a>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+
+    <!-- Messaggio istruzione (visibile quando nessuna categoria è selezionata) -->
+    <div id="blog-instruction" class="text-center py-12 reveal">
+      <div class="inline-flex items-center gap-3 px-6 py-3 bg-salvia-50 rounded-full border border-salvia-100">
+        <svg class="w-5 h-5 text-salvia-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
+        </svg>
+        <span class="text-sm text-salvia-500 font-medium">Seleziona una categoria per scoprire gli articoli</span>
+      </div>
+    </div>
+  </div>
+</section>

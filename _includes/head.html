@@ -1,0 +1,50 @@
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+<meta name="description" content="{{ page.description | default: site.description }}" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+  href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap"
+  rel="stylesheet">
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          salvia: {
+            50: '#f4f7f0', 100: '#e6edd9', 200: '#d4dfc0', 300: '#b5c99b',
+            400: '#96b078', 500: '#7a9659', 600: '#5f7844', 700: '#4a5e36',
+            800: '#3d4d2d', 900: '#334027',
+          },
+          rosmarino: {
+            50: '#f0f5f0', 100: '#d8e6d8', 200: '#b5d1b5', 300: '#8ab88a',
+            400: '#5e9961', 500: '#3d7a43', 600: '#2d6135', 700: '#264e2d',
+            800: '#213f26', 900: '#1c3421',
+          },
+          blu: {
+            50: '#eef6fb', 100: '#d5e9f5', 200: '#b0d7ed', 300: '#7cbce0',
+            400: '#4fa2d0', 500: '#3385b8', 600: '#2a6c99', 700: '#25577c',
+            800: '#234966', 900: '#213e55', 950: '#152836',
+          },
+          crema: {
+            50: '#fdfcfa', 100: '#f9f6f0', 200: '#f0eade',
+            300: '#e4d9c5', 400: '#d4c4a7',
+          },
+        },
+        fontFamily: {
+          serif: ['Playfair Display', 'Georgia', 'serif'],
+          sans: ['Inter', 'system-ui', 'sans-serif'],
+          display: ['Cormorant Garamond', 'Georgia', 'serif'],
+        },
+      },
+    },
+  }
+</script>
+
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+
+{% seo %}
