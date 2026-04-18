@@ -4,6 +4,8 @@
 @use "components";
 @use "animations";
 
+$font-display: 'Cormorant Garamond', Georgia, serif;
+
 /* Prose styles per i post */
 .prose {
   max-width: 65ch;
