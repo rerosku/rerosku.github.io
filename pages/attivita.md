@@ -56,11 +56,11 @@ permalink: /attivita/
           <svg class="w-8 h-8 text-rosmarino-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
         </div>
         <h3 class="font-display text-2xl font-semibold text-salvia-800 mb-3">Personality Hack</h3>
-        <p class="text-salvia-600 leading-relaxed mb-6">Sessioni volte alla comprensione del proprio tipo di personalità fondendo i risultati di vari test. Utile per sè stessi ma amche per coppie/famiglie/aziende.</p>
+        <p class="text-salvia-600 leading-relaxed mb-6">Sessioni volte alla comprensione del proprio tipo di personalità fondendo i risultati di vari test. Utile per sè stessi ma anche per coppie/famiglie/aziende.</p>
         <div class="space-y-2 mb-6">
           <div class="flex items-center gap-2 text-sm text-salvia-500"><svg class="w-4 h-4 text-rosmarino-400" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg><span>sessioni individuali con Report</span></div>
           <div class="flex items-center gap-2 text-sm text-salvia-500"><svg class="w-4 h-4 text-rosmarino-400" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg><span>Laboratori interattivi per gruppi</span></div>
-          <div class="flex items-center gap-2 text-sm text-salvia-500"><svg class="w-4 h-4 text-rosmarino-400" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg><span>Dinamiche di coppia legate alla personalità, comprensione delle differenze.</span></div>
+          <div class="flex items-center gap-2 text-sm text-salvia-500"><svg class="w-4 h-4 text-rosmarino-400" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg><span>Dinamiche di coppia</span></div>
         </div>
         <a href="/contatti/" class="inline-flex items-center gap-2 text-sm font-semibold text-rosmarino-600 hover:text-rosmarino-800 transition-colors group/link">Partecipa <svg class="w-4 h-4 transition-transform group-hover/link:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
       </div>
