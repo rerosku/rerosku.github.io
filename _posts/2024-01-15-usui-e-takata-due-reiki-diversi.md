@@ -4,6 +4,7 @@ title: "Usui e Takata: due Reiki diversi?"
 date: 2024-01-15
 category: reiki
 author: Alessandro Nardi
+emoji: ☀️
 reading_time: 8
 description: "Un'analisi delle differenze tra la tradizione originale giapponese di Mikao Usui e la rielaborazione occidentale portata da Hawayo Takata."
 excerpt: "Quando si parla di Reiki in Occidente, quasi sempre si parla della versione portata da Hawayo Takata negli anni '70. Ma quanto questa versione assomiglia all'insegnamento originale di Mikao Usui?"
