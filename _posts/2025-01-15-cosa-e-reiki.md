@@ -2,7 +2,7 @@
 layout: post
 title: "Cos'è il Reiki e come può aiutare il tuo benessere"
 date: 2025-01-15 14:00:00 +0200
-category: [reiki]
+category: [awakena]
 excerpt: "Scopri l'arte del Reiki, una pratica di guarigione energetica che promuove equilibrio e benessere."
 tags: [reiki, energia, guarigione, olistico, benessere]
 ---

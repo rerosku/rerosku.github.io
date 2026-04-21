@@ -2,7 +2,7 @@
 layout: post
 title: "Usui e Takata: due Reiki diversi?"
 date: 2024-01-15
-category: reiki
+category: awakena
 author: Alessandro Nardi
 emoji: ☀️
 reading_time: 8
