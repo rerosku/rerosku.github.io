@@ -69,7 +69,7 @@ Ho iniziato a meditare tre anni fa, spinto dall'ansia e dal bisogno di trovare u
 
 Oggi la meditazione è parte integrante della mia routine mattutina. Non sempre è perfetta, ma ogni seduta mi regala qualcosa di prezioso.
 
-## Conclusione
+---
 
 La meditazione non è una competizione, non c'è un "bene" o "male". Ogni esperienza è valida. L'importante è iniziare, con gentilezza verso sé stessi.
 
