@@ -24,7 +24,7 @@ Questa evoluzione ha pro e contro. Da un lato, la rielaborazione di Takata ha pe
 
 Per chi desidera riscoprire le radici del metodo, esistono oggi risorse e ricerche che aiutano a ricostruire il contesto storico e pratico di Usui: lavori di studiosi e praticanti che hanno confrontato documenti originali, testimonianze e materiali conservati dall'Usui Reiki Ryoho Gakkai. Questo ritorno alle fonti non è un gesto di purismo, ma un atto di rispetto intellettuale: permette di comprendere meglio le intenzioni originarie del metodo e di valutare con maggiore chiarezza le aggiunte successive.
 
-![I 5 princìpi del Reiki](/assets/images/5prìncipi.jpeg)
+![I 5 princìpi del Reiki](/assets/images/5principi.jpeg)
 
 Il Reiki contemporaneo è quindi un panorama variegato in cui convivono approcci diversi. Alcuni insegnanti e scuole privilegiano la semplicità, la meditazione e il lavoro etico proposto da Usui; altri integrano pratiche e simboli provenienti da tradizioni diverse, creando percorsi più ritualizzati e simbolici. Entrambe le strade possono essere valide: ciò che conta è la trasparenza nella trasmissione, la chiarezza sulle fonti e la responsabilità nel proporre pratiche che rispettino la storia e la profondità del metodo.
 
