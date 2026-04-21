@@ -4,7 +4,7 @@ title: "Il Riconoscimento dello Sciamano: Perché il Titolo Non Può Essere Auto
 date: 2026-04-22 12:00:00 +0200
 categories: [awakena]
 tags: [sciamanesimo, spiritualità tradizionale, riconoscimento comunitario, umiltà, potere spirituale]
-author: "Awakena"
+author: "Alessandro Nardi"
 excerpt: "Nelle tradizioni sciamaniche di tutto il mondo, il titolo di sciamano non può essere auto-conferito. Esploriamo il profondo significato del riconoscimento comunitario, il pericolo dell'orgoglio e perché chi si proclama sciamano rischia di perdere ciò che pretende di possedere."
 ---
 
