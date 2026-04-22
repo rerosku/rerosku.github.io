@@ -130,7 +130,7 @@ Per chi sente il chiamato sciamanico nel mondo contemporaneo, la sfida principal
 - Partecipare a tradizioni viventi dove il riconoscimento è ancora praticato
 - Creare, con pazienza e umiltà, spazi dove il proprio servizio possa essere valutato dagli altri
 
-### L'Accettazione della Non-Riconoscimento
+### L'Accettazione del Non-Riconoscimento
 
 Una delle prove più difficili del cammino sciamanico è **accettare di non essere riconosciuti**. Molti che sentono il chiamato non riceveranno mai il titolo di sciamano — e questo non è un fallimento, ma una realtà strutturale. Il chiamato può portare a molte forme di servizio: guaritore, consigliere, artista, insegnante, attivista, genitore attento, amico presente.
 
@@ -148,7 +148,7 @@ Questo silenzio non è negazione di sé, ma **affermazione del principio**: il p
 
 ### Lo Sciamano come Servitore dell'Equilibrio
 
-Nelle cosmologie sciamaniche, l'universo è mantenuto in equilibrio attraverso relazioni di reciprocità — tra umani e spiriti, tra vivi e morti, tra umani e natura, tra individuo e comunità. Lo sciamano è il **tecnico dell'equilibrio**, colui che ripara le relazioni rotte, ristabilisce i flussi, negoziaia i conflitti.
+Nelle cosmologie sciamaniche, l'universo è mantenuto in equilibrio attraverso relazioni di reciprocità — tra umani e spiriti, tra vivi e morti, tra umani e natura, tra individuo e comunità. Lo sciamano è il **tecnico dell'equilibrio**, colui che ripara le relazioni rotte, ristabilisce i flussi, negozia i conflitti.
 
 Ma l'equilibrio richiede umiltà. Colui che pretende di *possedere* il potere di ristabilire l'ordine cosmico, *rompe* quell'ordine con la propria pretesa. L'orgoglio dello sciamano non è solo un difetto personale — è una **minaccia cosmica**, una disarmonia che si propaga attraverso i livelli dell'esistenza.
 
@@ -168,7 +168,7 @@ Servire. Curare. Meditare. E lasciare che la comunità — umana e spirituale �
 
 ---
 
-*"Lo sciamano non è colui che dice di esserlo. È colui di cui gli altri, guardando indietro, raccontano la storia."*
+> *"Lo sciamano non è colui che dice di esserlo. È colui di cui gli altri, guardando indietro, raccontano la storia."*
 
 ---
 
