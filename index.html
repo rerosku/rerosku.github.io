@@ -58,13 +58,11 @@ permalink: /
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="grid lg:grid-cols-2 gap-16 items-center">
       <div class="reveal relative">
-        <div class="relative rounded-3xl overflow-hidden shadow-2xl shadow-salvia-200/30">
-          <div class="aspect-[4/5] bg-gradient-to-br from-salvia-200 via-blu-100 to-rosmarino-200 flex items-center justify-center">
-            <div class="text-center p-8">
-              <img src="{{ '/assets/images/alessandro-portrait.jpg' | relative_url }}" alt="Alessandro Nardi - Praticante Reiki" class="portrait-fade">
-            </div>
-          </div>
+        <div class="relative rounded-3xl overflow-hidden shadow-2xl shadow-salvia-200/30 aspect-[4/5]">
+          <div class="absolute inset-0 bg-gradient-to-br from-salvia-200 via-blu-100 to-rosmarino-200"></div>
+          <img src="{{ '/assets/images/alessandro-portrait.jpg' | relative_url }}" alt="Alessandro Nardi - Praticante Reiki" class="portrait-fade w-full h-full object-cover relative z-10">
         </div>
+
         <div class="absolute -bottom-6 -right-6 bg-white rounded-2xl shadow-xl p-4 border border-salvia-100">
           <div class="flex items-center gap-3">
             <div class="w-10 h-10 rounded-full bg-gradient-to-br from-blu-400 to-blu-500 flex items-center justify-center">
