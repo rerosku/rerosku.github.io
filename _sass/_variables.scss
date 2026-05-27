@@ -42,3 +42,9 @@ $crema-400: #d4c4a7;
 $font-serif: 'Playfair Display', Georgia, serif;
 $font-sans: 'Inter', system-ui, sans-serif;
 $font-display: 'Cormorant Garamond', Georgia, serif;
+
+.portrait-fade {
+  mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+  filter: drop-shadow(0 0 10px rgba(0,0,0,0.05));
+}
