@@ -30,7 +30,13 @@ permalink: /attivita/
           <div class="flex items-center gap-2 text-sm text-salvia-500"><svg class="w-4 h-4 text-salvia-400" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg><span>Anche trattamenti a distanza</span></div>
           <div class="flex items-center gap-2 text-sm text-salvia-500"><svg class="w-4 h-4 text-salvia-400" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg><span>Percorsi personalizzati</span></div>
         </div>
-        <a href="/contatti/" class="inline-flex items-center gap-2 text-sm font-semibold text-salvia-600 hover:text-salvia-800 transition-colors group/link">Prenota una sessione <svg class="w-4 h-4 transition-transform group-hover/link:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+        <button onclick="toggleInfo('reiki-info')" class="inline-flex items-center gap-2 text-sm font-semibold text-salvia-600 hover:text-salvia-800 transition-colors group/link">INFO <svg class="w-4 h-4 transition-transform group-hover/link:translate-y-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></button>
+        <div id="reiki-info" class="hidden mt-6 pt-6 border-t border-salvia-100 transition-all duration-300">
+          <p class="text-salvia-600 text-sm leading-relaxed mb-4">
+            Il Reiki è una pratica millenaria che lavora sul riequilibrio energetico profondo. Durante la sessione, l'operatore canalizza l'energia universale per stimolare i naturali processi di autoguarigione del corpo e della mente, sciogliendo tensioni accumulate e ripristinando la pace interiore.
+          </p>
+          <a href="/contatti/" class="inline-flex items-center gap-2 text-sm font-bold text-salvia-700 hover:text-salvia-900 transition-colors">Contattami per info <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+        </div>
       </div>
 
       <!-- Coaching -->
@@ -46,7 +52,13 @@ permalink: /attivita/
           <div class="flex items-center gap-2 text-sm text-salvia-500"><svg class="w-4 h-4 text-blu-400" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg><span>Obbiettivi raggiunti, cambiamenti duraturi</span></div>
           <div class="flex items-center gap-2 text-sm text-salvia-500"><svg class="w-4 h-4 text-blu-400" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg><span>In presenza o online</span></div>
         </div>
-        <a href="/contatti/" class="inline-flex items-center gap-2 text-sm font-semibold text-blu-600 hover:text-blu-800 transition-colors group/link">Scopri il percorso <svg class="w-4 h-4 transition-transform group-hover/link:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+        <button onclick="toggleInfo('coaching-info')" class="inline-flex items-center gap-2 text-sm font-semibold text-blu-600 hover:text-blu-800 transition-colors group/link">INFO <svg class="w-4 h-4 transition-transform group-hover/link:translate-y-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></button>
+        <div id="coaching-info" class="hidden mt-6 pt-6 border-t border-blu-100 transition-all duration-300">
+          <p class="text-salvia-600 text-sm leading-relaxed mb-4">
+            Il Life Coaching olistico non si limita a fissare obiettivi, ma esplora l'interezza della tua persona. Lavoreremo insieme per identificare le credenze limitanti che ti frenano, scoprendo le tue potenzialità latenti e tracciando un percorso concreto verso la realizzazione dei tuoi desideri più autentici.
+          </p>
+          <a href="/contatti/" class="inline-flex items-center gap-2 text-sm font-bold text-blu-700 hover:text-blu-900 transition-colors">Inizia il percorso <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+        </div>
       </div>
 
       <!-- Personalità -->
@@ -62,8 +74,29 @@ permalink: /attivita/
           <div class="flex items-center gap-2 text-sm text-salvia-500"><svg class="w-4 h-4 text-rosmarino-400" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg><span>Laboratori interattivi per gruppi</span></div>
           <div class="flex items-center gap-2 text-sm text-salvia-500"><svg class="w-4 h-4 text-rosmarino-400" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg><span>Dinamiche di coppia</span></div>
         </div>
-        <a href="/contatti/" class="inline-flex items-center gap-2 text-sm font-semibold text-rosmarino-600 hover:text-rosmarino-800 transition-colors group/link">Partecipa <svg class="w-4 h-4 transition-transform group-hover/link:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+        <button onclick="toggleInfo('personality-info')" class="inline-flex items-center gap-2 text-sm font-semibold text-rosmarino-600 hover:text-rosmarino-800 transition-colors group/link">INFO <svg class="w-4 h-4 transition-transform group-hover/link:translate-y-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></button>
+        <div id="personality-info" class="hidden mt-6 pt-6 border-t border-rosmarino-100 transition-all duration-300">
+          <p class="text-salvia-600 text-sm leading-relaxed mb-4">
+            Attraverso il Personality Hack, andiamo oltre le etichette. Utilizzando strumenti psicometrici e analisi comportamentali, ti aiuto a decodificare i tuoi schemi mentali e quelli delle persone intorno a te, migliorando drasticamente la comunicazione e la qualità delle tue relazioni personali e professionali.
+          </p>
+          <a href="/contatti/" class="inline-flex items-center gap-2 text-sm font-bold text-rosmarino-700 hover:text-rosmarino-900 transition-colors">Prenota analisi <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+        </div>
       </div>
     </div>
   </div>
 </section>
+
+<script>
+function toggleInfo(id) {
+  const element = document.getElementById(id);
+  if (element) {
+    element.classList.toggle('hidden');
+    // Optional: smooth scroll to the content if it's being shown
+    if (!element.classList.contains('hidden')) {
+      setTimeout(() => {
+        element.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }, 100);
+    }
+  }
+}
+</script>
