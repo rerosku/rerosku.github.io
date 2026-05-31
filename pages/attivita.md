@@ -16,7 +16,7 @@ permalink: /attivita/
       </p>
     </div>
 
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 items-start">
       <!-- Reiki -->
       <div class="reveal group bg-white rounded-3xl p-8 shadow-lg shadow-salvia-100/50 hover:shadow-xl hover:shadow-salvia-200/50 transition-all duration-500 border border-salvia-100/50 hover:border-salvia-200 relative overflow-hidden">
         <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-salvia-300 via-salvia-400 to-salvia-300"></div>
@@ -89,6 +89,40 @@ permalink: /attivita/
 <script>
 function toggleInfo(id) {
   const element = document.getElementById(id);
+  if (element) {
+    const isHidden = element.classList.contains('hidden');
+    
+    // Close all other info boxes first
+    document.querySelectorAll('[id$="-info"]').forEach(box => {
+      box.classList.add('hidden');
+    });
+
+    // If it was hidden, show it now
+    if (isHidden) {
+      element.classList.remove('hidden');
+      setTimeout(() => {
+        element.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }, 100);
+    }
+  }
+  
+  if (element) {
+    const isHidden = element.classList.contains('hidden');
+    
+    // Close all info boxes first
+    allInfos.forEach(infoId => {
+      const el = document.getElementById(infoId);
+      if (el) el.classList.add('hidden');
+    });
+
+    // If it was hidden, show it now
+    if (isHidden) {
+      element.classList.remove('hidden');
+      setTimeout(() => {
+        element.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }, 100);
+    }
+  }
   if (element) {
     element.classList.toggle('hidden');
     // Optional: smooth scroll to the content if it's being shown
